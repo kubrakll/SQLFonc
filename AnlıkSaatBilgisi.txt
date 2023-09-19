@@ -1,0 +1,19 @@
+
+select GETDATE() 
+    Çıktısı : 2023-09-19 09:52:03.550
+
+
+select SYSDATETIME()
+    Çıktısı : 2023-09-19 09:55:38.7146894
+
+
+select SYSDATETIMEOFFSET()
+    Çıktısı : 2023-09-19 09:55:38.7146894 +03:00
+
+
+select SYSUTCDATETIME()
+    Çıktısı : 2023-09-19 06:55:38.7146894
+
+
+select CURRENT_TIMESTAMP
+    Çıktısı : 2023-09-19 09:55:38.713
