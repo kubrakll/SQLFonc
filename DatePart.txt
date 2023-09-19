@@ -1,0 +1,13 @@
+
+select 
+DATEPART(YEAR,GETDATE()) yıl,
+DATEPART(MONTH,GETDATE()) ay,
+DATEPART(DAY,GETDATE()) gün,
+DATEPART(HOUR,GETDATE()) saat,
+DATEPART(MINUTE,GETDATE()) dakika,
+DATEPART(SECOND,GETDATE()) saniye
+
+
+Çıktısı :
+yıl    ay   gün     saat    dakika  saniye
+2023	9	 19     10	       9	 38
